@@ -1,0 +1,66 @@
+body {
+    color: rgb(16, 255, 243);
+    background: rgb(0, 4, 235);
+    margin: 0px;
+    font-family: "Chokokutai", system-ui;
+    margin-bottom: 100px;
+}
+
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(0, 16, 163);
+    padding-bottom: 80px;
+    padding-top: 80px; 
+    display: flex;
+    justify-content: center
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+
+img {
+    height: 200px;
+}
+
+
+.Vídeos {
+    display: flex; 
+    overflow-x: auto;
+    gap: 20px
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.Vídeos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+
+.Vídeos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(0, 0, 0)
+}
+
+.categoria h2 {
+    color: rgb(216, 0, 0);
+}
